@@ -1,0 +1,35 @@
+.body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 85vh;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.header__h3 {
+    text-decoration: underline;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form__input {
+    max-width: 424px;
+    max-height: 200px;
+    min-width: 200px;
+    min-height: 100px;
+    width: 50vw;
+    height: 50vh;
+}
+
+.result {
+    margin-top: 1rem;
+    font-style: italic;
+}
